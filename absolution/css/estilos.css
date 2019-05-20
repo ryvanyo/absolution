@@ -1,0 +1,95 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: white;
+	font-size: 13px;
+	color: #999999;
+	margin: 0;
+	border-top: 5px solid #1ca3dd;
+}
+.contenedor_centrado{
+	width: 960px;
+	margin: 0 auto;
+}
+.overflow_hidden{
+	overflow: hidden;
+}
+.logo{
+	display: block;
+	margin-top: 33px;
+	float: left;
+}
+.search_form{
+	margin-top: 34px;
+	overflow: hidden;
+	float: right;
+}
+.search_form input[type=text]{
+	display: block;
+	width: 217px;
+	height: 32px;
+	background-color: white;
+	border: 1px solid #dddddd;
+	float: left;
+	padding: 5px;
+	color: #7f7f7f;
+}
+.search_form button{
+	display: block;
+	width: 67px;
+	height: 32px;
+	background-color: #1ca3dd;
+	color: white;
+	text-align: center;
+	border: 0;
+	float: left;
+}
+.main_menu{
+	margin-top: 33px;
+	clear: both;
+	overflow: hidden;
+	background-image: url(../img/menu_bg.gif);
+	border: 1px solid #dbdbdb;
+}
+.main_menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.main_menu ul li{
+	float: left;
+}
+.main_menu ul li a{
+	line-height: 48px;
+	display: block;
+	padding: 0 15px;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #666666;
+}
+.main_menu ul li a:hover{
+	background-color: #1ca3dd;
+	color: white;
+}
+.shout{
+	margin-top: 30px;
+	background-color: #f0f0f0;
+	border-bottom: 1px solid #dbdbdb;
+}
+.shout h2, .shout p{
+	padding-top: 16px;
+	margin: 0;
+	font-size: 36px;
+	color: #666666;
+	font-family: Georgia, serif;
+	font-weight: normal;
+	text-align: center;
+}
+.shout p{
+	padding-top: 12px;
+	padding-bottom: 16px;
+	font-size: 18px;
+	font-style: italic;
+}
